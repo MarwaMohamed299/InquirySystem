@@ -14,6 +14,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="8.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.6" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,8 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Context\" />
-    <Folder Include="Identity\" />
+    <Folder Include="Identity\IdentityService\" />
   </ItemGroup>
 
 </Project>
